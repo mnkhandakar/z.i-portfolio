@@ -122,3 +122,33 @@ h3{
     background: crimson;
     transform: scale(1.05);
 }
+
+.contact{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contact .half-width form .text-area{
+    height: 45px;
+    width: calc(45% - 6px);
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact .half-width form .subject-area{
+    height: 45px;
+    width: 90%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact .half-width form .describe-area{
+    height: 90px;
+    width: 90%;
+    margin-bottom: 15px;
+    text-align:justify;
+}
+footer{
+    background:steelblue;
+    padding: 20px ;
+    text-align: center;
+    font-weight: bold;
+}
